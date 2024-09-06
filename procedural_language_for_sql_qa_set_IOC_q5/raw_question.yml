@@ -1,0 +1,27 @@
+title: Q5
+type: scored_question
+prompt: What is EXPLAIN PLAN in SQL, and what is its primary purpose in relation to procedural language code?
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "Definition: EXPLAIN PLAN is a SQL command that displays the execution plan chosen by the SQL optimizer for a given SQL statement."
+        points: 1
+        value: ans_0
+      - label: "Primary purpose in relation to procedural language code:"
+        points: 1
+        value: ans_1
+      - label: "To analyze and optimize the performance of SQL statements embedded within procedural code."
+        points: 1
+        value: ans_2
+      - label: "To identify potential bottlenecks or inefficiencies in database access within procedures."
+        points: 1
+        value: ans_3
+      - label: "To understand how the database executes complex queries or data manipulations in stored procedures."
+        points: 1
+        value: ans_4
+      - label: "To assist in tuning procedural code by providing insights into index usage, join methods, and access paths."
+        points: 1
+        value: ans_5

@@ -1,0 +1,45 @@
+title: Q4
+type: scored_question
+prompt: Describe the difference between IN, OUT, and INOUT parameters in stored procedures and explain when each type would be used.
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "IN parameters:"
+        points: 1
+        value: ans_0
+      - label: "Used to pass values into the stored procedure."
+        points: 1
+        value: ans_1
+      - label: "Cannot be modified within the procedure."
+        points: 1
+        value: ans_2
+      - label: "Used when the procedure needs to receive input data for processing."
+        points: 1
+        value: ans_3
+      - label: "OUT parameters:"
+        points: 1
+        value: ans_4
+      - label: "Used to return values from the stored procedure to the calling program."
+        points: 1
+        value: ans_5
+      - label: "Can be modified within the procedure but their initial values are not accessible."
+        points: 1
+        value: ans_6
+      - label: "Used when the procedure needs to return computed or retrieved data."
+        points: 1
+        value: ans_7
+      - label: "INOUT parameters:"
+        points: 1
+        value: ans_8
+      - label: "Combine the functionality of both IN and OUT parameters."
+        points: 1
+        value: ans_9
+      - label: "Can pass values into the procedure and return modified values."
+        points: 1
+        value: ans_10
+      - label: "Used when a parameter needs to be both input and output, such as for updating existing values."
+        points: 1
+        value: ans_11

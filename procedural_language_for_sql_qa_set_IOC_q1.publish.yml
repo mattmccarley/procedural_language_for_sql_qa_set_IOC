@@ -1,0 +1,5 @@
+uid: procedural_language_for_sql_qa_set_IOC_q1
+canonical: procedural_language_for_sql_qa_set_IOC
+raw_question: {.procedural_language_for_sql_qa_set_IOC_q1/raw_question.yml}
+scale: {.procedural_language_for_sql_qa_set_IOC_q1/scale.yml}
+overview: {.procedural_language_for_sql_qa_set_IOC_q1/overview.md}

@@ -1,0 +1,27 @@
+title: Q1
+type: scored_question
+prompt: Define variables in the context of procedural languages for SQL, and state how they differ from SQL column values.
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "Definition: Variables in procedural languages for SQL are named storage locations that can hold a value of a specific data type during the execution of a program or procedure."
+        points: 1
+        value: ans_0
+      - label: "Differences from SQL column values:"
+        points: 1
+        value: ans_1
+      - label: "Variables are temporary and exist only during procedure execution, while column values are persistent in database tables."
+        points: 1
+        value: ans_2
+      - label: "Variables can be manipulated and updated within the procedure, while column values require SQL statements for modification."
+        points: 1
+        value: ans_3
+      - label: "Variables have a scope limited to the procedure or block where they are declared, while column values are accessible across the entire database."
+        points: 1
+        value: ans_4
+      - label: "Variables can hold intermediate results or control flow, while column values represent actual data stored in tables."
+        points: 1
+        value: ans_5

@@ -1,0 +1,30 @@
+title: Q2
+type: scored_question
+prompt: Describe the concept of transaction control in procedural languages for SQL and list the common commands used for managing transactions.
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "Concept: Transaction control in procedural languages for SQL refers to the management of a sequence of database operations as a single unit of work, ensuring data integrity and consistency."
+        points: 1
+        value: ans_0
+      - label: "Common commands for managing transactions:"
+        points: 1
+        value: ans_1
+      - label: "BEGIN or START TRANSACTION: Marks the beginning of a transaction."
+        points: 1
+        value: ans_2
+      - label: "COMMIT: Permanently saves all changes made within the transaction."
+        points: 1
+        value: ans_3
+      - label: "ROLLBACK: Undoes all changes made within the transaction."
+        points: 1
+        value: ans_4
+      - label: "SAVEPOINT: Creates a point within a transaction to which you can later roll back."
+        points: 1
+        value: ans_5
+      - label: "SET TRANSACTION: Specifies characteristics for the transaction."
+        points: 1
+        value: ans_6

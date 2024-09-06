@@ -1,0 +1,39 @@
+title: Q3
+type: scored_question
+prompt: Explain the difference between system-defined exceptions and user-defined exceptions in procedural languages for SQL.
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "System-defined exceptions:"
+        points: 1
+        value: ans_0
+      - label: "Predefined by the database system."
+        points: 1
+        value: ans_1
+      - label: "Raised automatically when specific error conditions occur."
+        points: 1
+        value: ans_2
+      - label: "Have predefined error codes and messages."
+        points: 1
+        value: ans_3
+      - label: "Cover common database errors like constraint violations or resource limits."
+        points: 1
+        value: ans_4
+      - label: "User-defined exceptions:"
+        points: 1
+        value: ans_5
+      - label: "Created and defined by the programmer."
+        points: 1
+        value: ans_6
+      - label: "Raised explicitly in the code using RAISE or THROW statements."
+        points: 1
+        value: ans_7
+      - label: "Can have custom error codes and messages."
+        points: 1
+        value: ans_8
+      - label: "Used for handling application-specific error conditions not covered by system exceptions."
+        points: 1
+        value: ans_9
